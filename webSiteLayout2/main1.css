@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.header {
+    background-image: url("https://www.orientaltravel.ru/img/regions/1512/72870.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    opacity: 0.8;
+}
+.nav-item {
+    color: black;
+    text-decoration: none;
+    margin-right: 85px;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+.nav-item:hover {
+    color: red;
+}
+.title {
+    color: #fff0f0;
+    font-size: 70px;
+    width: 1200px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 1000;
+    line-height: 75px;
+}
+.subtitle {
+    color: #fff0f0;
+    font-size: 50px;
+    font-weight: 1000;
+    width: 1300px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 75px;
+}
+.input {
+    width: 290px;
+    height: 50px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 15px;
+    border: 4px #5c5c7a solid;
+    padding-left: 40px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 25px;
+}
+.btn {
+    color: #fff0f0;
+    background-color: #5c5c7a;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    border: 2px #0d6efd solid;
+}
+.button {
+    text-align: center;
+    margin-top: 40px;
+}
+.btn:hover {
+    background-color: red;
+}
